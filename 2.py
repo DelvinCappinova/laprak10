@@ -1,13 +1,5 @@
-print("Masukkan deretan angka, akhiri dengan 'done'.")
-angka = []
-while True:
-    input_angka = input("Masukkan angka: ")
-    if input_angka.lower() == 'done':
-        break
-    else:
-        angka.copyappend(int(input_angka))
-min = min(angka)
-max = max(angka)
+Lista = ['red', 'green', 'blue']
+Listb = ['#FF0000', '#008000', '#0000FF']
 
-print(f"Nilai minimum: {min}")
-print(f"Nilai maksimum: {max}")
+zipped = dict(zip(Lista, Listb))
+print(zipped)

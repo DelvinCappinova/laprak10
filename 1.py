@@ -1,5 +1,6 @@
-def listangka(input_angka):
-    listku = sorted(input_angka, reverse=True)
-    return listku[:3]
-angka = [23, 43, 11, 2, 34, 345, 756, 903]
-print(listangka(angka))
+data = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+for key in data:
+    print("key", key)
+    print("value", data[key])
+    print("item", key, data[key])
+    print()
